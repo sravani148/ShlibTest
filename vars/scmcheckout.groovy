@@ -1,5 +1,5 @@
 def call(def projectkey, def reponame, def branch)
-def errorMessage = ''
+//def errorMessage = ''
 {
   //def gitID='xyz123'
   baseurl='https://github.com/'
