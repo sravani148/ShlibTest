@@ -1,3 +1,3 @@
-def call () {
-  echo "Build Stage"
+def call (){
+  echo "Build Stage calling from shared library ${service}"
 }
