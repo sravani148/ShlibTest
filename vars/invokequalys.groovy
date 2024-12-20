@@ -1,10 +1,12 @@
 def call (image_name){
   if (image_name.contains('dev') || image_name.contains('lab'))  {
     environment = "DEV"
+    echo "${environment}"
   }  else if (image_name.contains('cde')){
   environment = "PROD"
+    echo "${environment}"
   } else {
-  error ""
+  error "No registry found"
   }
   
   echo "environment is ${environment}
