@@ -1,4 +1,4 @@
-def call (image_name){
+def call (image_name,harborregistry){
   if (image_name.contains('dev') || image_name.contains('lab'))  {
     environment = "DEV"
     echo "${environment}"
